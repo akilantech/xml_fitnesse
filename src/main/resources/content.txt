@@ -1,0 +1,20 @@
+!define TEST_RUNNER {fitlibrary.suite.FitLibraryServer}
+!path /Users/akilan/Projects/xml_fitnesse/target/classes
+!path /Users/akilan/Downloads/FitLibrary-2/fitnesse/*.jar
+!path /Users/akilan/Downloads/FitLibrary-2/fitnesse/lib/*.jar
+!path /Users/akilan/Projects/xml_fitnesse/target/classes
+
+
+|io.akilan.XmlDoFixture|
+
+!|ListNormal|
+|Line|
+|One|
+|Two|
+|Three|
+
+!|ListXml|
+|Line|
+| <FIXML> |
+| <AllocInstrctnAlert TransTyp=”0” ID=”#1234567#book1#acc1#legal#" GrpID = “1234567” AvgPxGrpID=”AP101” > |
+
